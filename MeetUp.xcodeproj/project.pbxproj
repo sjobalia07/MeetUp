@@ -14,6 +14,7 @@
 		DBAD0D7A29A34EFF007216AF /* MeetUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD0D7929A34EFF007216AF /* MeetUpTests.swift */; };
 		DBAD0D8429A34EFF007216AF /* MeetUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD0D8329A34EFF007216AF /* MeetUpUITests.swift */; };
 		DBAD0D8629A34EFF007216AF /* MeetUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD0D8529A34EFF007216AF /* MeetUpUITestsLaunchTests.swift */; };
+		DBC3CA2029AD64280006816E /* UserLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC3CA1F29AD64280006816E /* UserLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DBAD0D7F29A34EFF007216AF /* MeetUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAD0D8329A34EFF007216AF /* MeetUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpUITests.swift; sourceTree = "<group>"; };
 		DBAD0D8529A34EFF007216AF /* MeetUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBC3CA1F29AD64280006816E /* UserLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		DBAD0D6729A34EFC007216AF /* MeetUp */ = {
 			isa = PBXGroup;
 			children = (
+				DBC3CA1D29AD63FF0006816E /* Model */,
 				DBAD0D6829A34EFC007216AF /* MeetUpApp.swift */,
 				DBAD0D6A29A34EFC007216AF /* ContentView.swift */,
 				DBAD0D6C29A34EFE007216AF /* Assets.xcassets */,
@@ -125,6 +128,22 @@
 				DBAD0D8529A34EFF007216AF /* MeetUpUITestsLaunchTests.swift */,
 			);
 			path = MeetUpUITests;
+			sourceTree = "<group>";
+		};
+		DBC3CA1D29AD63FF0006816E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3CA1E29AD64070006816E /* View */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBC3CA1E29AD64070006816E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBC3CA1F29AD64280006816E /* UserLoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC3CA2029AD64280006816E /* UserLoginView.swift in Sources */,
 				DBAD0D6B29A34EFC007216AF /* ContentView.swift in Sources */,
 				DBAD0D6929A34EFC007216AF /* MeetUpApp.swift in Sources */,
 			);
