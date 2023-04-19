@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, mundo!")
+// To make the naivgation bar at bottom of the app
+    @State private var selection: Tab = .schedule
+    enum Tab {
+            case setting
+            case chats
+            case meetingNotes
+            case schedule
+            case tasks
         }
-        .padding()
+    var body: some View {
+        TabView(selection: $selection) {
+            // To make the naivgation bar at bottom of the app
+            
+            TaskView().tabItem {
+                Label("Tasks", systemImage: "checklist")
+            }.tag(Tab.tasks)
+            
+            MeetingNotes().tabItem {
+                Label("Meeting Notes", systemImage: "pencil.circle")
+            }.tag(Tab.meetingNotes)
+            
+            ScheduleView().tabItem {
+                Label("Schedule", systemImage: "calendar")
+            }.tag(Tab.schedule)
+            
+            ChatView().tabItem {
+                Label("Chat", systemImage: "message")
+            }.tag(Tab.chats)
+            
+            SettingView().tabItem {
+                Label("Setting", systemImage: "gear")
+            }.tag(Tab.setting)
+        }
     }
 }
 

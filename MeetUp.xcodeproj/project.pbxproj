@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044281D629E77DD100B3ACA0 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044281D529E77DD100B3ACA0 /* SettingView.swift */; };
+		044281D829E77DEA00B3ACA0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044281D729E77DEA00B3ACA0 /* ChatView.swift */; };
+		044281DA29E77E0700B3ACA0 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044281D929E77E0700B3ACA0 /* TaskView.swift */; };
+		044281DC29E77E2300B3ACA0 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044281DB29E77E2300B3ACA0 /* ScheduleView.swift */; };
+		044281DE29E786D600B3ACA0 /* MeetingNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044281DD29E786D600B3ACA0 /* MeetingNotes.swift */; };
+		04DFBD2129E909450023943C /* SingleSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2029E909450023943C /* SingleSetting.swift */; };
+		04DFBD2329E90B130023943C /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2229E90B130023943C /* SettingRow.swift */; };
+		04DFBD2629E90BD90023943C /* SettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2529E90BD90023943C /* SettingData.swift */; };
+		04DFBD2829E9426C0023943C /* SettingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2729E9426C0023943C /* SettingList.swift */; };
+		04DFBD2A29E9E4DC0023943C /* ProfileStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2929E9E4DC0023943C /* ProfileStruct.swift */; };
+		04DFBD2C29E9E5170023943C /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2B29E9E5170023943C /* ProfileHost.swift */; };
+		04DFBD2E29E9E68D0023943C /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2D29E9E68D0023943C /* ProfileSummary.swift */; };
+		04DFBD3029E9EF840023943C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFBD2F29E9EF840023943C /* ProfileEditor.swift */; };
 		DBAD0D6929A34EFC007216AF /* MeetUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD0D6829A34EFC007216AF /* MeetUpApp.swift */; };
 		DBAD0D6B29A34EFC007216AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAD0D6A29A34EFC007216AF /* ContentView.swift */; };
 		DBAD0D6D29A34EFE007216AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAD0D6C29A34EFE007216AF /* Assets.xcassets */; };
@@ -34,6 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044281D529E77DD100B3ACA0 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		044281D729E77DEA00B3ACA0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		044281D929E77E0700B3ACA0 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		044281DB29E77E2300B3ACA0 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		044281DD29E786D600B3ACA0 /* MeetingNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingNotes.swift; sourceTree = "<group>"; };
+		04DFBD2029E909450023943C /* SingleSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSetting.swift; sourceTree = "<group>"; };
+		04DFBD2229E90B130023943C /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		04DFBD2529E90BD90023943C /* SettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingData.swift; sourceTree = "<group>"; };
+		04DFBD2729E9426C0023943C /* SettingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingList.swift; sourceTree = "<group>"; };
+		04DFBD2929E9E4DC0023943C /* ProfileStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStruct.swift; sourceTree = "<group>"; };
+		04DFBD2B29E9E5170023943C /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		04DFBD2D29E9E68D0023943C /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		04DFBD2F29E9EF840023943C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		DBAD0D6529A34EFC007216AF /* MeetUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAD0D6829A34EFC007216AF /* MeetUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpApp.swift; sourceTree = "<group>"; };
 		DBAD0D6A29A34EFC007216AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +97,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044281D429E7783D00B3ACA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04DFBD1D29E908EB0023943C /* Settings  */,
+				044281D529E77DD100B3ACA0 /* SettingView.swift */,
+				044281D729E77DEA00B3ACA0 /* ChatView.swift */,
+				044281D929E77E0700B3ACA0 /* TaskView.swift */,
+				044281DB29E77E2300B3ACA0 /* ScheduleView.swift */,
+				044281DD29E786D600B3ACA0 /* MeetingNotes.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04DFBD1D29E908EB0023943C /* Settings  */ = {
+			isa = PBXGroup;
+			children = (
+				04DFBD2029E909450023943C /* SingleSetting.swift */,
+				04DFBD2229E90B130023943C /* SettingRow.swift */,
+				04DFBD2729E9426C0023943C /* SettingList.swift */,
+				04DFBD2929E9E4DC0023943C /* ProfileStruct.swift */,
+				04DFBD2B29E9E5170023943C /* ProfileHost.swift */,
+				04DFBD2F29E9EF840023943C /* ProfileEditor.swift */,
+				04DFBD2D29E9E68D0023943C /* ProfileSummary.swift */,
+			);
+			path = "Settings ";
+			sourceTree = "<group>";
+		};
+		04DFBD2429E90BA70023943C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DFBD2529E90BD90023943C /* SettingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DBAD0D5C29A34EFC007216AF = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +157,8 @@
 			children = (
 				DBAD0D6829A34EFC007216AF /* MeetUpApp.swift */,
 				DBAD0D6A29A34EFC007216AF /* ContentView.swift */,
+				04DFBD2429E90BA70023943C /* Model */,
+				044281D429E7783D00B3ACA0 /* Views */,
 				DBAD0D6C29A34EFE007216AF /* Assets.xcassets */,
 				DBAD0D6E29A34EFE007216AF /* Preview Content */,
 			);
@@ -257,8 +320,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DFBD2829E9426C0023943C /* SettingList.swift in Sources */,
+				044281D829E77DEA00B3ACA0 /* ChatView.swift in Sources */,
+				04DFBD3029E9EF840023943C /* ProfileEditor.swift in Sources */,
+				04DFBD2E29E9E68D0023943C /* ProfileSummary.swift in Sources */,
+				044281D629E77DD100B3ACA0 /* SettingView.swift in Sources */,
+				04DFBD2629E90BD90023943C /* SettingData.swift in Sources */,
+				04DFBD2A29E9E4DC0023943C /* ProfileStruct.swift in Sources */,
+				04DFBD2C29E9E5170023943C /* ProfileHost.swift in Sources */,
 				DBAD0D6B29A34EFC007216AF /* ContentView.swift in Sources */,
+				044281DA29E77E0700B3ACA0 /* TaskView.swift in Sources */,
 				DBAD0D6929A34EFC007216AF /* MeetUpApp.swift in Sources */,
+				044281DC29E77E2300B3ACA0 /* ScheduleView.swift in Sources */,
+				04DFBD2129E909450023943C /* SingleSetting.swift in Sources */,
+				044281DE29E786D600B3ACA0 /* MeetingNotes.swift in Sources */,
+				04DFBD2329E90B130023943C /* SettingRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
