@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ChatView: View {
+    @State private var username: String = ""
     var body: some View {
-        Text("Chats")
+        TextField("Username", text: $username)
     }
 }
 

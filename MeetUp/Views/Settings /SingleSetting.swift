@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-struct SingleSetting: Hashable, Identifiable{
+struct SingleSetting: Identifiable{
     var id: Int
     
     var name: String
@@ -17,7 +17,10 @@ struct SingleSetting: Hashable, Identifiable{
         }
     
     var colour: Color
+    var destination: AnyView
     
     }
+
+
 
 
